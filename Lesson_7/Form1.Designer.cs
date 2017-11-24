@@ -94,7 +94,7 @@
 			this.notBtn3.Name = "notBtn3";
 			this.notBtn3.Size = new System.Drawing.Size(228, 23);
 			this.notBtn3.TabIndex = 6;
-			this.notBtn3.Text = "I also think this is a button";
+			this.notBtn3.Text = "I also think this is not a button";
 			this.notBtn3.UseVisualStyleBackColor = true;
 			this.notBtn3.Click += new System.EventHandler(this.notBtn3_Click);
 			// 

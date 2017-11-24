@@ -45,14 +45,7 @@ namespace Lesson_7
 
 		private String AddNumbers(string txt1, string txt2)
 		{
-			Decimal a = Convert.ToDecimal(txt1);
-			Decimal b = Convert.ToDecimal(txt2);
-			Int32 c = Convert.ToInt32(a);
-			Int32 d = Convert.ToInt32(b);
-			Int32 sum = c + d;
-			String final = Convert.ToString(sum);
-			lbl3.Text = final;
-			return final;
+			Decimal a = Convert.ToDecimal(txt1); Decimal b = Convert.ToDecimal(txt2); Decimal sum = a + b; String final = Convert.ToString(sum); lbl3.Text = final;return final;
 		}
 	}
 }
